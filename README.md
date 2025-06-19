@@ -1,7 +1,4 @@
 # Full Stack AI Splitwise Clone with Next JS, Convex, Tailwind, Inngest, Shadcn UI
-## https://youtu.be/Ce7O3p7-YDI
-
-
 
 ### Make sure to create a `.env` file with following variables -
 
