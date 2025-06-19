@@ -12,7 +12,7 @@ export const sendEmail = action({
     apiKey: v.string(),
   },
   handler: async (ctx, args) => {
-    const resend = new Resend(args.apiKey);
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     try {
       const result = await resend.emails.send({
